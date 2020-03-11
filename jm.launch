@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.eclipse.m2e.Maven2LaunchConfigurationType">
+<booleanAttribute key="M2_DEBUG_OUTPUT" value="false"/>
+<stringAttribute key="M2_GOALS" value="clean install -Djavax.net.ssl.trustStore=&quot;/home/kush151/cacerts&quot; -Djavax.net.ssl.trustStorePassword=&quot;changeit&quot;"/>
+<booleanAttribute key="M2_NON_RECURSIVE" value="false"/>
+<booleanAttribute key="M2_OFFLINE" value="false"/>
+<stringAttribute key="M2_PROFILES" value="pforge-mi"/>
+<listAttribute key="M2_PROPERTIES">
+<listEntry value="https:proxyHost=127.0.0.1"/>
+<listEntry value="https:proxyPort=3128"/>
+<listEntry value="JHIPSTER_REGISTRY_PASSWORD=admin"/>
+</listAttribute>
+<stringAttribute key="M2_RUNTIME" value="EMBEDDED"/>
+<booleanAttribute key="M2_SKIP_TESTS" value="false"/>
+<intAttribute key="M2_THREADS" value="1"/>
+<booleanAttribute key="M2_UPDATE_SNAPSHOTS" value="true"/>
+<stringAttribute key="M2_USER_SETTINGS" value=""/>
+<booleanAttribute key="M2_WORKSPACE_RESOLUTION" value="false"/>
+<stringAttribute key="bad_container_name" value="/job-managemen"/>
+<mapAttribute key="org.eclipse.debug.core.environmentVariables">
+<mapEntry key="JHIPSTER_REGISTRY_PASSWORD" value="admin"/>
+</mapAttribute>
+<listAttribute key="org.eclipse.debug.ui.favoriteGroups">
+<listEntry value="org.eclipse.debug.ui.launchGroup.debug"/>
+<listEntry value="org.eclipse.debug.ui.launchGroup.run"/>
+</listAttribute>
+<stringAttribute key="org.eclipse.jdt.launching.JRE_CONTAINER" value="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/java-1.8.0-openjdk-1.8.0.222.b10-0.el7_6.x86_64"/>
+<stringAttribute key="org.eclipse.jdt.launching.VM_ARGUMENTS" value="-Dhttp.proxyHost=127.0.0.1&#10;-Dhttp.proxyPort=3128&#10;-Dhttps.proxyHost=127.0.0.1&#10;-Dhttps.proxyPort=3128&#10;-Dhttp.nonProxyHosts=&quot;localhost|127.0.0.1|10.*|unix*&quot;"/>
+<stringAttribute key="org.eclipse.jdt.launching.WORKING_DIRECTORY" value="${project_loc:job-management}"/>
+</launchConfiguration>
